@@ -3,7 +3,7 @@ stages {
   stage('Checkout') {
    steps {
     // Checkout your Ansible playbook repository
-    git branch: 'main', url: 'https://github.com/amitopenwriteup/tfsource.git'
+    git branch: 'main', url: 'https://github.com/agawand007/tfsource.git'
    }
   }
   stage('Install Ansible') {
