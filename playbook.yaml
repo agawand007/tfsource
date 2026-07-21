@@ -6,7 +6,7 @@
   tasks:
     - name: Check SSH service status
       service:
-        name: ssh
+        name: sshd
         state: started
       register: ssh_service_status
 
